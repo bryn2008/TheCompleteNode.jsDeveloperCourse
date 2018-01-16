@@ -3,7 +3,7 @@ const request = require('request');
 var geocodeAddress = (address, callback) => {
 
   var encodedAddress = encodeURIComponent(address);
-  var apiKey = 'AIzaSyCQdg-lq8jjSuypEEo7Jn_P3cZoOJxZ-rY'
+  var apiKey = 'YOUR_API_KEY_GOSE_HERE'
   var basePath = 'https://maps.googleapis.com/maps/api/geocode/json'
 
   request({
